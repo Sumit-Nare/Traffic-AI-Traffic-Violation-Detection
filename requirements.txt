@@ -2,3 +2,5 @@ ultralytics
 opencv-python
 fastapi
 uvicorn
+paddleocr
+paddlepaddle
