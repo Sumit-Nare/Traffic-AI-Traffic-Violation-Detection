@@ -1,0 +1,24 @@
+## Project Structure
+
+```text
+Traffic_AI_Project/
+│
+├── main.py
+├── api.py
+├── app.py
+├── database.py
+├── requirements.txt
+├── README.md
+│
+├── models/
+│   ├── yolo11n.pt
+│   ├── helmet.pt
+│   └── license_plate.pt
+│
+└── results/
+    ├── Traffic_AI_Final.mp4
+    ├── project_architecture.png
+    ├── dashboard.png
+    ├── No_Helmet_*.jpg
+    ├── Overspeed_*.jpg
+    └── Triple_Riding_*.jpg
