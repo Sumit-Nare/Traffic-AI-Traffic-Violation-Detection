@@ -1,1 +1,32 @@
+## Project Results
 
+The Traffic AI system successfully performs:
+
+- Vehicle detection and counting
+- Helmet detection
+- No-helmet detection
+- Triple-riding detection
+- Wrong-direction detection
+- Overspeed detection
+- Number plate recognition
+- Violation database storage
+- REST API
+- Central dashboard
+
+## Output Evidence
+
+Sample output images are available in the `results/` folder.
+
+## REST API
+
+The project provides REST API endpoints for accessing violation records and dashboard data.
+
+## Technologies
+
+- Python
+- YOLO
+- OpenCV
+- ByteTrack
+- FastAPI
+- SQLite
+- HTML/CSS
