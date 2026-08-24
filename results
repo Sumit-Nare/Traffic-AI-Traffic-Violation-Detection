@@ -1,32 +1,43 @@
-## Project Results
+## Results
 
-The Traffic AI system successfully performs:
+The Traffic AI system successfully generates an annotated traffic video and violation evidence images.
+
+### Detected Results
 
 - Vehicle detection and counting
-- Helmet detection
-- No-helmet detection
-- Triple-riding detection
-- Wrong-direction detection
+- No Helmet detection
+- Triple Riding detection
 - Overspeed detection
-- Number plate recognition
-- Violation database storage
-- REST API
-- Central dashboard
+- Wrong Direction detection
+- Number Plate detection
 
-## Output Evidence
+### Sample Output
 
-Sample output images are available in the `results/` folder.
+#### No Helmet Detection
 
-## REST API
+![No Helmet Detection](results/No_Helmet_170_1787557595.jpg)
 
-The project provides REST API endpoints for accessing violation records and dashboard data.
+#### Overspeed Detection
 
-## Technologies
+![Overspeed Detection](results/Overspeed_354_1787557623.jpg)
 
-- Python
-- YOLO
-- OpenCV
-- ByteTrack
-- FastAPI
-- SQLite
-- HTML/CSS
+#### Triple Riding Detection
+
+![Triple Riding Detection](results/Triple_Riding_1_1787557554.jpg)
+
+### Processed Video
+
+The complete AI-processed traffic video is available in:
+
+`results/Traffic_AI_Final.mp4`
+
+### Dashboard
+
+The Streamlit dashboard displays:
+
+- Total violation count
+- Individual violation counts
+- Violation records
+- AI output video
+- Evidence images
+- Database status
